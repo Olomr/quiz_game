@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.question{
+    color:black;
+    font-size: 100px;
+}
+
+
+.ans-row{
+    display: flex;
+}
+
+
+.answer{
+    font-size: 35px;
+    border: 1px solid black;
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.answer:hover{
+    box-shadow: 2px 2px 2px orange;
+}
+
+
+.main {
+    display: none;
+}
+
+
+.start_btn {
+    font-size: 20px ;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(29, 204, 6);
+}
+
+
+.start_btn:hover {
+    box-shadow: 5px 5px 5px rgb(80, 79, 79);
+    transition: 0.2s ;
+    font-size: 25px;
+}
+
+
+.container_h1 {
+    text-align: center;
+}
+
+.switch_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
